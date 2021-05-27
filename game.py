@@ -1,6 +1,8 @@
 # game.py
 import random
-print("Rock, Paper, Scissors, Shoot!")
+
+
+print("Welcome PLAYER ONE to the Rock, Paper, Scissors, Shoot Game!")
 #print(10)
 #print(10, 99, "My message", "another message")
 user_choice = input("Please choose one of 'rock', 'paper', 'scissors': ")
