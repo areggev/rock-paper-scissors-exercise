@@ -30,10 +30,10 @@ valid_options = ["rock", "paper", "scissors"]
 computer_choice = random.choice(valid_options)
 print("COMPUTER CHOICE: ", computer_choice)
 
-if(user_choice == "rock") and (computer_choice == "paper") or (user_choice == "paper") and (computer_choice == "rock") or (user_choice == "scissors") and (computer_choice == "paper"):
+if(user_choice == "rock") and (computer_choice == "scissors") or (user_choice == "paper") and (computer_choice == "rock") or (user_choice == "scissors") and (computer_choice == "paper"):
     print("Congratulations, you won!")
 else:
-    if(user_choice == "rock") and (computer_choice == "scissors") or (user_choice =="paper") and (computer_choice == "scissors") or (user_choice == "scissors") and (computer_choice == "rock"):
+    if(user_choice == "rock") and (computer_choice == "paper") or (user_choice =="paper") and (computer_choice == "scissors") or (user_choice == "scissors") and (computer_choice == "rock"):
         print("Sorry, you lost, please play again.")
     else:
         print("You tied, please play again.")
