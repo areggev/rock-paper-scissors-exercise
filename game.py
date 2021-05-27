@@ -36,6 +36,6 @@ else:
     if(user_choice == "rock") and (computer_choice == "scissors") or (user_choice =="paper") and (computer_choice == "scissors") or (user_choice == "scissors") and (computer_choice == "rock"):
         print("Sorry, you lost, please play again.")
     else:
-        print(You tied, please play again.)
+        print("You tied, please play again.")
 
 print("THANKS FOR PLAYING ROCKS, PAPER, SCISSORS. PLEASE PLAY AGAIN.")
