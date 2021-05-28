@@ -6,7 +6,7 @@ import dotenv
 dotenv.load_dotenv()
 player_name = os.getenv("Player_Name")
 
-print("Welcome" + Player_Name + "to the Rock, Paper, Scissors, Shoot Game!")
+print("Welcome" + "Player_Name" + "to the Rock, Paper, Scissors, Shoot Game!")
 #print(10)
 #print(10, 99, "My message", "another message")
 user_choice = input("Please choose one of 'rock', 'paper', 'scissors': ")
