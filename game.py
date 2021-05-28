@@ -4,7 +4,8 @@ import os
 import dotenv
 
 dotenv.load_dotenv()
-player_name = os.getenv("Player_Name")
+Player_Name = os.getenv("Player_Name")
+#print (PLAYER_NAME)
 
 print("Welcome" + Player_Name + "to the Rock, Paper, Scissors, Shoot Game!")
 #print(10)
