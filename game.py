@@ -1,7 +1,7 @@
 # game.py
 import random
 import os 
-import dotenv
+from dotenv import dotenv
 
 dotenv.load_dotenv()
 PLAYER_NAME = os.getenv("PLAYER_NAME")
