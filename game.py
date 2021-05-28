@@ -3,7 +3,7 @@ import random
 import os 
 import dotenv
 
-dotenv.load_dotenv(PLAYER_NAME)
+dotenv.load_dotenv()
 PLAYER_NAME = os.getenv("PLAYER_NAME")
 #print (PLAYER_NAME)
 
