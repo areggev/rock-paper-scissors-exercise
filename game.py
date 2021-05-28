@@ -1,9 +1,9 @@
 # game.py
 import random
 import os 
-import dotenv
+import .env
 
-dotenv.load_dotenv()
+dotenv.load_.env()
 player_name = os.getenv("Player_Name")
 
 print("Welcome" + Player_Name + "to the Rock, Paper, Scissors, Shoot Game!")
